@@ -1,0 +1,54 @@
+/* Resetting default styles */
+html,
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #333;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 400px;
+    width: 90%; /* Using percentage for responsiveness */
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Specific styles for elements */
+input[type="text"] {
+    width: calc(100% - 70px); /* Adjusting input width */
+    padding: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+li {
+    background-color: #fff;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
